@@ -53,7 +53,6 @@ rm -r Quantis-public
 cd ~/  &&
 mkdir .quantis  &&
 nano ~/.quantis/quantis.conf 
-Paste those settings and edit rpcuser,rpcpassword,masternodeprivkey,masternodeaddr
 
 rpcuser=QUAN
 rpcpassword=12345
@@ -75,4 +74,4 @@ Press enter
 
 3-5. Start wallet daemon
 cd quantis  &&
-./quantisd -daemon  
+./quantisd -daemon
