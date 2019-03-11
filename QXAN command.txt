@@ -1,0 +1,9 @@
+cd quantis
+
+./quantisd -daemon
+./quantisd stop
+./quantisd getinfo
+./quantisd getmininginfo
+./quantisd getblockcount
+./quantisd masternode status
+./quantisd masternode list
